@@ -1,0 +1,6 @@
+framework module Pods_Rabbit {
+  umbrella header "Pods-Rabbit-umbrella.h"
+
+  export *
+  module * { export * }
+}

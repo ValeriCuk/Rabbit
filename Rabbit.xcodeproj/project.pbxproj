@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450AC2CB2BFE456600022AC0 /* menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 450AC2CA2BFE456600022AC0 /* menu.mp3 */; };
+		450AC2CD2BFE457300022AC0 /* game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 450AC2CC2BFE457300022AC0 /* game.mp3 */; };
+		450AC2CF2BFE49FD00022AC0 /* laugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 450AC2CE2BFE49FD00022AC0 /* laugh.mp3 */; };
+		450AC2D12BFE4A1600022AC0 /* woah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 450AC2D02BFE4A1600022AC0 /* woah.mp3 */; };
+		450AC2D32BFE54DB00022AC0 /* ghost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 450AC2D22BFE54DB00022AC0 /* ghost.mp3 */; };
+		450AC2D52BFE5BAC00022AC0 /* wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 450AC2D42BFE5BAC00022AC0 /* wolf.mp3 */; };
+		455A30EE2BF37B4A006FA378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A30ED2BF37B4A006FA378 /* AppDelegate.swift */; };
+		455A30F22BF37B4A006FA378 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 455A30F12BF37B4A006FA378 /* Actions.sks */; };
+		455A30F42BF37B4A006FA378 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A30F32BF37B4A006FA378 /* GameScene.swift */; };
+		455A30F62BF37B4A006FA378 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A30F52BF37B4A006FA378 /* GameViewController.swift */; };
+		455A30F92BF37B4A006FA378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455A30F72BF37B4A006FA378 /* Main.storyboard */; };
+		455A30FB2BF37B4B006FA378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455A30FA2BF37B4B006FA378 /* Assets.xcassets */; };
+		455A30FE2BF37B4B006FA378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455A30FC2BF37B4B006FA378 /* LaunchScreen.storyboard */; };
+		455A310B2BF5025E006FA378 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A310A2BF5025E006FA378 /* GameOverScene.swift */; };
+		455A310D2BF60103006FA378 /* NightGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A310C2BF60103006FA378 /* NightGameScene.swift */; };
+		455A310F2BF61001006FA378 /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A310E2BF61001006FA378 /* Levels.swift */; };
+		455A31112BF63318006FA378 /* DesertGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A31102BF63318006FA378 /* DesertGameScene.swift */; };
+		455A31132BF6357F006FA378 /* IceGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A31122BF6357F006FA378 /* IceGameScene.swift */; };
+		455A31152BF63CA0006FA378 /* BeachGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A31142BF63CA0006FA378 /* BeachGameScene.swift */; };
+		455A31172BF63E0B006FA378 /* MenuGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A31162BF63E0B006FA378 /* MenuGameScene.swift */; };
+		455A31232BF77243006FA378 /* Easter Lover.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 455A31222BF77243006FA378 /* Easter Lover.ttf */; };
+		455A31252BF774A4006FA378 /* LevelsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A31242BF774A4006FA378 /* LevelsScene.swift */; };
+		5102EE4FFD98E254AEA3A4DD /* Pods_Rabbit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78FD113353337A762990D4A /* Pods_Rabbit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DAB8A7FB9ABD6BC853475C6 /* Pods-Rabbit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rabbit.debug.xcconfig"; path = "Target Support Files/Pods-Rabbit/Pods-Rabbit.debug.xcconfig"; sourceTree = "<group>"; };
+		450AC2CA2BFE456600022AC0 /* menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menu.mp3; sourceTree = "<group>"; };
+		450AC2CC2BFE457300022AC0 /* game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game.mp3; sourceTree = "<group>"; };
+		450AC2CE2BFE49FD00022AC0 /* laugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laugh.mp3; sourceTree = "<group>"; };
+		450AC2D02BFE4A1600022AC0 /* woah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woah.mp3; sourceTree = "<group>"; };
+		450AC2D22BFE54DB00022AC0 /* ghost.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ghost.mp3; sourceTree = "<group>"; };
+		450AC2D42BFE5BAC00022AC0 /* wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wolf.mp3; sourceTree = "<group>"; };
+		455A30EA2BF37B4A006FA378 /* Rabbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rabbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455A30ED2BF37B4A006FA378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		455A30F12BF37B4A006FA378 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		455A30F32BF37B4A006FA378 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		455A30F52BF37B4A006FA378 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		455A30F82BF37B4A006FA378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		455A30FA2BF37B4B006FA378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		455A30FD2BF37B4B006FA378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		455A31082BF4F292006FA378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		455A310A2BF5025E006FA378 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		455A310C2BF60103006FA378 /* NightGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightGameScene.swift; sourceTree = "<group>"; };
+		455A310E2BF61001006FA378 /* Levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
+		455A31102BF63318006FA378 /* DesertGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertGameScene.swift; sourceTree = "<group>"; };
+		455A31122BF6357F006FA378 /* IceGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceGameScene.swift; sourceTree = "<group>"; };
+		455A31142BF63CA0006FA378 /* BeachGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachGameScene.swift; sourceTree = "<group>"; };
+		455A31162BF63E0B006FA378 /* MenuGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGameScene.swift; sourceTree = "<group>"; };
+		455A31222BF77243006FA378 /* Easter Lover.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Easter Lover.ttf"; sourceTree = "<group>"; };
+		455A31242BF774A4006FA378 /* LevelsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsScene.swift; sourceTree = "<group>"; };
+		A9559F2D8786BA134836614B /* Pods-Rabbit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rabbit.release.xcconfig"; path = "Target Support Files/Pods-Rabbit/Pods-Rabbit.release.xcconfig"; sourceTree = "<group>"; };
+		B78FD113353337A762990D4A /* Pods_Rabbit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rabbit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		455A30E72BF37B4A006FA378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5102EE4FFD98E254AEA3A4DD /* Pods_Rabbit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		455A30E12BF37B4A006FA378 = {
+			isa = PBXGroup;
+			children = (
+				455A30EC2BF37B4A006FA378 /* Rabbit */,
+				455A30EB2BF37B4A006FA378 /* Products */,
+				9BF09C2AAF0B2B4E81C55C17 /* Pods */,
+				C28C6E2DFD322F9C6F16AACD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		455A30EB2BF37B4A006FA378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				455A30EA2BF37B4A006FA378 /* Rabbit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		455A30EC2BF37B4A006FA378 /* Rabbit */ = {
+			isa = PBXGroup;
+			children = (
+				455A31082BF4F292006FA378 /* Info.plist */,
+				455A310E2BF61001006FA378 /* Levels.swift */,
+				455A30ED2BF37B4A006FA378 /* AppDelegate.swift */,
+				455A30F12BF37B4A006FA378 /* Actions.sks */,
+				455A30F52BF37B4A006FA378 /* GameViewController.swift */,
+				455A31162BF63E0B006FA378 /* MenuGameScene.swift */,
+				455A31242BF774A4006FA378 /* LevelsScene.swift */,
+				455A30F32BF37B4A006FA378 /* GameScene.swift */,
+				455A310C2BF60103006FA378 /* NightGameScene.swift */,
+				455A31142BF63CA0006FA378 /* BeachGameScene.swift */,
+				455A31102BF63318006FA378 /* DesertGameScene.swift */,
+				455A31122BF6357F006FA378 /* IceGameScene.swift */,
+				455A310A2BF5025E006FA378 /* GameOverScene.swift */,
+				455A30F72BF37B4A006FA378 /* Main.storyboard */,
+				455A30FA2BF37B4B006FA378 /* Assets.xcassets */,
+				455A30FC2BF37B4B006FA378 /* LaunchScreen.storyboard */,
+				455A31042BF4E9EE006FA378 /* resursces */,
+			);
+			path = Rabbit;
+			sourceTree = "<group>";
+		};
+		455A31042BF4E9EE006FA378 /* resursces */ = {
+			isa = PBXGroup;
+			children = (
+				455A31222BF77243006FA378 /* Easter Lover.ttf */,
+				450AC2D22BFE54DB00022AC0 /* ghost.mp3 */,
+				450AC2D42BFE5BAC00022AC0 /* wolf.mp3 */,
+				450AC2CC2BFE457300022AC0 /* game.mp3 */,
+				450AC2D02BFE4A1600022AC0 /* woah.mp3 */,
+				450AC2CE2BFE49FD00022AC0 /* laugh.mp3 */,
+				450AC2CA2BFE456600022AC0 /* menu.mp3 */,
+			);
+			path = resursces;
+			sourceTree = "<group>";
+		};
+		9BF09C2AAF0B2B4E81C55C17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB8A7FB9ABD6BC853475C6 /* Pods-Rabbit.debug.xcconfig */,
+				A9559F2D8786BA134836614B /* Pods-Rabbit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C28C6E2DFD322F9C6F16AACD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B78FD113353337A762990D4A /* Pods_Rabbit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		455A30E92BF37B4A006FA378 /* Rabbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455A31012BF37B4B006FA378 /* Build configuration list for PBXNativeTarget "Rabbit" */;
+			buildPhases = (
+				1430F1EA7FA09ABB774F42A3 /* [CP] Check Pods Manifest.lock */,
+				455A30E62BF37B4A006FA378 /* Sources */,
+				455A30E72BF37B4A006FA378 /* Frameworks */,
+				455A30E82BF37B4A006FA378 /* Resources */,
+				6A56C519E14A6006E8C2CFE7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rabbit;
+			productName = Rabbit;
+			productReference = 455A30EA2BF37B4A006FA378 /* Rabbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		455A30E22BF37B4A006FA378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					455A30E92BF37B4A006FA378 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 455A30E52BF37B4A006FA378 /* Build configuration list for PBXProject "Rabbit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 455A30E12BF37B4A006FA378;
+			productRefGroup = 455A30EB2BF37B4A006FA378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				455A30E92BF37B4A006FA378 /* Rabbit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		455A30E82BF37B4A006FA378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450AC2CD2BFE457300022AC0 /* game.mp3 in Resources */,
+				455A30F92BF37B4A006FA378 /* Main.storyboard in Resources */,
+				450AC2CB2BFE456600022AC0 /* menu.mp3 in Resources */,
+				450AC2D52BFE5BAC00022AC0 /* wolf.mp3 in Resources */,
+				455A31232BF77243006FA378 /* Easter Lover.ttf in Resources */,
+				455A30FB2BF37B4B006FA378 /* Assets.xcassets in Resources */,
+				455A30FE2BF37B4B006FA378 /* LaunchScreen.storyboard in Resources */,
+				450AC2D12BFE4A1600022AC0 /* woah.mp3 in Resources */,
+				450AC2D32BFE54DB00022AC0 /* ghost.mp3 in Resources */,
+				450AC2CF2BFE49FD00022AC0 /* laugh.mp3 in Resources */,
+				455A30F22BF37B4A006FA378 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1430F1EA7FA09ABB774F42A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rabbit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A56C519E14A6006E8C2CFE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rabbit/Pods-Rabbit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rabbit/Pods-Rabbit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rabbit/Pods-Rabbit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		455A30E62BF37B4A006FA378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455A310F2BF61001006FA378 /* Levels.swift in Sources */,
+				455A30F42BF37B4A006FA378 /* GameScene.swift in Sources */,
+				455A30F62BF37B4A006FA378 /* GameViewController.swift in Sources */,
+				455A31172BF63E0B006FA378 /* MenuGameScene.swift in Sources */,
+				455A310B2BF5025E006FA378 /* GameOverScene.swift in Sources */,
+				455A31152BF63CA0006FA378 /* BeachGameScene.swift in Sources */,
+				455A31252BF774A4006FA378 /* LevelsScene.swift in Sources */,
+				455A31112BF63318006FA378 /* DesertGameScene.swift in Sources */,
+				455A30EE2BF37B4A006FA378 /* AppDelegate.swift in Sources */,
+				455A31132BF6357F006FA378 /* IceGameScene.swift in Sources */,
+				455A310D2BF60103006FA378 /* NightGameScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		455A30F72BF37B4A006FA378 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455A30F82BF37B4A006FA378 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		455A30FC2BF37B4B006FA378 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455A30FD2BF37B4B006FA378 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		455A30FF2BF37B4B006FA378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		455A31002BF37B4B006FA378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		455A31022BF37B4B006FA378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DAB8A7FB9ABD6BC853475C6 /* Pods-Rabbit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rabbit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Rabbit;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rabbit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		455A31032BF37B4B006FA378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9559F2D8786BA134836614B /* Pods-Rabbit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rabbit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Rabbit;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rabbit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		455A30E52BF37B4A006FA378 /* Build configuration list for PBXProject "Rabbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455A30FF2BF37B4B006FA378 /* Debug */,
+				455A31002BF37B4B006FA378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455A31012BF37B4B006FA378 /* Build configuration list for PBXNativeTarget "Rabbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455A31022BF37B4B006FA378 /* Debug */,
+				455A31032BF37B4B006FA378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 455A30E22BF37B4A006FA378 /* Project object */;
+}

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "pikaso_reimagine_adorable-cartoon-style-Yellow-3D-text-that-says-GO.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
